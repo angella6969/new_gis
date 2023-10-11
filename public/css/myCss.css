@@ -1,0 +1,66 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+}
+
+header.scrolled {
+    background-color: #ffffff; 
+}
+
+h1 {
+    margin: 0;
+    color: #000000;
+}
+
+.my-table {
+    background-color: rgb(215,220,46,0.5);
+    border-radius: 10px; /* Ganti dengan warna latar belakang yang Anda inginkan */
+}
+.my-table1 {
+    background-color: rgb(100,105,119,0.9); 
+    border-radius: 30px;/* Ganti dengan warna latar belakang yang Anda inginkan */
+}
+.my-table2 {
+    background-color: rgb(235,233,172,0.9); /* Ganti dengan warna latar belakang yang Anda inginkan */
+    border-radius: 30px;
+}
+.text-white-1 {
+    background-color: rgba(215,220,46,0.5);
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+header {
+    flex: 0 0 calc(100% - 40px);
+    /* width: 80%; */
+    height: 70px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /* background-color: rgba(218, 184, 184, 0.5); */
+    border-radius: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 50px; 
+}
+
+nav a {
+    color: #000000; 
+    text-decoration: none;
+    padding: 5px 10px; 
+    border-radius: 20px;
+}
+
+nav a:hover {
+    background-color: #eafc46; 
+}
+li a:hover {
+    background-color: #95ee8d; 
+    border-radius: 40px;
+}

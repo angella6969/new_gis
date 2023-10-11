@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('public/font/Museo 900.otf') format('otf');
+         /* url('../fonts/your-custom-font.woff') format('woff'); */
+    font-weight: normal;
+    font-style: normal;
+}
