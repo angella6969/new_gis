@@ -54,8 +54,9 @@
                     <div class="row">
                         <div class="col-6 col-sm-12">
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control " placeholder="Pencarian Berdasarkan Daerah Irigasi"
-                                    name="search" value="{{ request('search') }}">
+                                <input type="text" class="form-control "
+                                    placeholder="Pencarian Berdasarkan Daerah Irigasi" name="search"
+                                    value="{{ request('search') }}">
                                 <button class="btn btn-primary " type="submit" id="basic-addon2">Search</button>
                             </div>
                         </div>
@@ -265,14 +266,14 @@
                 iziToast.success({
                     title: 'Success',
                     message: '{{ Session::get('success') }}',
-                    position: 'topRight',
+                    position: 'bottomRight',
                 });
             @endif
             @if (Session::has('fail'))
                 iziToast.warning({
                     title: 'Warning',
                     message: '{{ Session::get('fail') }}',
-                    position: 'topRight',
+                    position: 'bottomRight',
                 });
             @endif
         });

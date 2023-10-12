@@ -82,14 +82,14 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-12">
+        {{-- <div class="col-lg-12">
             <div class="card">
                 <div class="card-body">
 
 
                     <div id="bar"></div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 

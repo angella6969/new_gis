@@ -65,7 +65,7 @@
                                         name="IrigasiDesaTerbangun"
                                         value="{{ old('IrigasiDesaTerbangun', $Penerimas->IrigasiDesaTerbangun) }}"
                                         placeholder="Total Saluran Irigasi Tersier & Irigasi Desa Terbangun" required>
-                                    <span class="input-group-text">KM</sup></span>
+                                    <span class="input-group-text">M</sup></span>
                                 </div>
                             </div>
                             <div class="mb-3">
@@ -76,7 +76,7 @@
                                         name="IrigasiDesaBelumTerbangun"
                                         value="{{ old('IrigasiDesaBelumTerbangun', $Penerimas->IrigasiDesaBelumTerbangun) }}"
                                         placeholder="Total Saluran Irigasi Tersier & Irigasi Desa Belum Terbangun" required>
-                                    <span class="input-group-text">KM</sup></span>
+                                    <span class="input-group-text">M</sup></span>
                                 </div>
                             </div>
 
@@ -121,7 +121,7 @@
                                 <label for="peta_pdf">Peta Desa</label>
                                 <input type="file" class="form-control " id="peta_pdf" name="peta_pdf"
                                     accept="application/pdf">
-                                <h6>PDF Max 1 MB</h6>
+                                <h6>PDF Max 5 MB</h6>
 
                             </div>
 
